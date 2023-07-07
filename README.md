@@ -1,2 +1,2 @@
 # natours
-Tours
+Template for tour website
