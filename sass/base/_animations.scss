@@ -1,0 +1,43 @@
+@keyframes moveinleft{
+    0%{
+opacity: 0;
+transform: translateX(-10rem);
+    }
+    80%{
+        transform: translate(1rem);
+    }
+    100%{
+opacity: 1;
+transform: translate(0);
+    }
+}
+
+/* Moving the Text from right side */
+
+@keyframes moveinright{
+    0%{
+opacity: 0;
+transform: translateX(10rem);
+    }
+    80%{
+        transform: translate(-1rem);
+    } 
+    100%{
+opacity: 1;
+transform: translate(0);
+    }
+}
+
+/* Move in to the Bottom */
+
+@keyframes moveinbottom{
+    0%{
+opacity: 0;
+transform: translatey(3rem);
+    }
+    
+    100%{
+opacity: 1;
+transform: translate(0);
+    }
+}

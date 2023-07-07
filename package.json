@@ -1,0 +1,17 @@
+{
+  "name": "natours3",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main1.scss css/style.css"
+  },
+  "author": "bubba",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
